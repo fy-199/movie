@@ -28,8 +28,8 @@ const ContactUs = () => {
 							<label>Are you a</label>
 							<br />
 							<select>
-								<option>Student</option>
-								<option>Letting Agent</option>
+								<option>Advicer</option>
+								<option>MovieStar</option>
 								<option>Other</option>
 							</select>
 							<br />
@@ -59,7 +59,7 @@ const ContactUs = () => {
 								target="_blank"
 								rel="noreferrer"
 							>
-								contact@unilive.co.uk
+								contact@movieadvicer.com.tr
 							</a>
 						</span>
 					</div>

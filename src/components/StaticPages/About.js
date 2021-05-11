@@ -10,12 +10,13 @@ const About = () => {
 			<div className="aboutus-content">
 				<div>
 					<h2 className="aboutus-content-title">
-						We help finding your dream student home.
+					es sem sagittis at. Morbi justo orci, fermentum vitae
+						blandit ac, efficitur sit amet
 					</h2>
 				</div>
 				<div className="aboutus-content-text-container">
 					<p className="aboutus-content-text">
-						UniLive lorem ipsum dolor sit amet, consectetur adipiscing
+						 lorem ipsum dolor sit amet, consectetur adipiscing
 						elit. Fusce id odio quis sem euismod eleifend quis eu lacus.
 						Quisque quis lacinia magna. Vivamus ornare libero magna, eget
 						sodales sem sagittis at. Morbi justo orci, fermentum vitae

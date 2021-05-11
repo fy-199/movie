@@ -3,7 +3,7 @@ import './Policies.css';
 
 const Policies = () => {
 	return (
-		<div>
+		<div className="policies">
 			<div className="policies-header">
 				<span className="policies-title">Privacy & Cookie Policies</span>
 			</div>
@@ -19,7 +19,7 @@ const Policies = () => {
 			</div>
 			<div>
 				<p className="policies-content-text">
-					At UniLive, your privacy is Cras vestibulum, massa quis auctor
+					 your privacy is Cras vestibulum, massa quis auctor
 					ultrices, nisi est rhoncus augue, eu auctor lectus est ac ante.
 					Aliquam erat volutpat. Suspendisse lobortis felis a magna tempus,
 					in mollis tellus iaculis. <br />
