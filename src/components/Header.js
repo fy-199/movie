@@ -8,12 +8,12 @@ import {
   FaMoneyBillWaveAlt,
   FaSignOutAlt,
 } from "react-icons/fa";
-import "../css/style.css";
+import "./Header.css";
 
 export const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-dark navbar-expand-md bg-dark justify-content-center fixed-top">
+      <nav class="navbar navbar-dark navbar-expand-md justify-content-center fixed-top">
         <div class="container">
           <a href="/" class="navbar-brand d-flex w-50 me-auto">
             Movied
@@ -94,12 +94,36 @@ export const Header = () => {
                   <FaPlusCircle />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   <FaSearch />
                 </a>
+                <div class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-search animated fadeInUp">
+                  <form class="px-4 py-3 search-form ">
+                    <div class="form-group ">
+                      {/* <label for="exampleDropdownFormEmail1">Search</label> */}
+                      <input
+                        class="form-control mr-sm-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                    </div>
+
+                    <button type="submit" class="btn btn-dark">
+                      Search
+                    </button>
+                  </form>
+                </div>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -110,8 +134,9 @@ export const Header = () => {
                 >
                   <FaBell />
                 </a>
+
                 <ul
-                  class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-bell "
+                  class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-bell animated fadeInUp "
                   aria-labelledby="navbarScrollingDropdown"
                 >
                   <li>
@@ -204,7 +229,7 @@ export const Header = () => {
                   aria-expanded="false"
                 >
                   <img
-                    src="https://cdn.icon-icons.com/icons2/2643/PNG/512/male_boy_person_people_avatar_icon_159358.png"
+                    src="https://image.flaticon.com/icons/png/512/147/147144.png"
                     className="avatar-icon"
                     alt=""
                   />

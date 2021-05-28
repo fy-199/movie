@@ -34,6 +34,7 @@
   top: 50%;
   transform: translateY(-50%);
   text-align: start;
+  padding: 0 100px !important;
 }
 .carousel-caption h5 {
   font-size: 4vw;
@@ -46,7 +47,7 @@
 .carousel-caption p {
   font-size: 16px;
   /* margin: auto; */
-  width: 60%;
+  width: 30% !important;
   /* margin-top: 25px; */
   line-height: 1.9;
 }
@@ -129,4 +130,27 @@
   cursor: pointer;
   z-index: 4;
   text-decoration: none;
+}
+.more-details:hover {
+  color: #e50914 !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4% !important;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
 }

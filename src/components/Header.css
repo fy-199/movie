@@ -1,0 +1,32 @@
+.avatar-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 25%;
+}
+.dropdown-avatar {
+  width: 300px;
+  right: 20px;
+}
+.dropdown-bell {
+  width: 380px;
+  right: 300px !important;
+  left: auto;
+}
+.bell-poster {
+  width: 85px;
+  height: 128px;
+}
+.navbar-dark {
+  background: rgba(20, 20, 20, 0.5) !important;
+  backdrop-filter: blur(10px);
+}
+.form-control {
+  width: 264px;
+}
+.search-form {
+  display: flex;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e50914 !important;
+  transition: all 0.3s ease-in-out;
+}
